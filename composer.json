@@ -1,0 +1,18 @@
+{
+    "name": "myvendor/contactform",
+    "description": "A contact form package for laravel",
+    "require": {},
+	"autoload":{
+	
+	  "psr-4":{
+		"MyVendor\\Contactform\\": "packages/MyVendor/contactform/src",
+         "App\\": "app/"
+	  },
+	   "autoload-dev": {
+            "psr-4": {
+                "MyVendor\\Contactform\\": "packages/MyVendor/contactform/src",
+                "Tests\\": "tests/"
+            }
+        }
+	}
+}
